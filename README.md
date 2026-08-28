@@ -2,7 +2,11 @@
 This will be where i add all my projects i have learnt starting from scratch at the start of y12.
 
 StocksSimV1.py
-![Project Demo](compressed_25MB_StocksSimV1.py - Visual Studio Code 2026-08-28 16-28-35.mp4)
+![Project Demo](
+
+https://github.com/user-attachments/assets/d9bfdf86-ee15-433c-bbfb-f5ce33191b24
+
+)
 = stocks simulation starting with 10k with real stock data
 -Used mostly dictionaries,if/elif/else, try/except, yfinance api
 -need to learn OOP to improve 
