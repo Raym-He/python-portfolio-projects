@@ -16,15 +16,6 @@ portfolio = {
     'history': []
 }
 
-market_prices = {
-    "AAPL": 185.50,
-    "TSLA": 240.00,
-    "MSFT": 410.25,
-    "NVDA": 125.00,
-    "BARC": 2.20
-}
-
-
 while True:
     user_action = input("\nEnter command (portfolio, buy, sell, ,history, exit): ").strip().lower()
 #exit
@@ -111,6 +102,6 @@ while True:
                 if portfolio['holding_shares'][sold_ticker] == 0:
                     del portfolio['holding_shares'][sold_ticker]
 
-            print(f"You have gained {market_prices[sold_ticker] * sold_ticker_amount} and have {portfolio['money']} on total now")
+            print(f"You have gained {price_of_shares * sold_ticker_amount} and have {portfolio['money']} on total now")
             continue
 
