@@ -2,6 +2,7 @@
 This will be where i add all my projects i have learnt starting from scratch at the start of y12.
 
 StocksSimV1.py
+![Project Demo](compressed_25MB_StocksSimV1.py)
 = stocks simulation starting with 10k with real stock data
 -Used mostly dictionaries,if/elif/else, try/except, yfinance api
 -need to learn OOP to improve 
