@@ -95,7 +95,7 @@ while True:
                 print(f"You dont have enough of this stock: {sold_ticker}")
                 continue
             else:
-                portfolio['money'] += (price * round(sold_ticker_amount,2))
+                portfolio['money'] += (price * sold_ticker_amount)
                 portfolio['holding_shares'][sold_ticker] -= sold_ticker_amount
                 portfolio['history'].append({'Sold': ticker, 'Amount': price_of_shares})
 
