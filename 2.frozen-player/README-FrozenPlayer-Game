@@ -1,1 +1,9 @@
 GOAL - Learn Pygame efficently to improve the ui in the new stock sim
+
+Learnt basic pygame using a porject based youtube tutorial, now try to build frozen hunt game project.
+
+1. imported basic PyGame starting frame from their offical website
+2. set fps = 60, screen size = 1280 x 720.
+3. Character Class - created a caharcter class that lets the inputted image get cut up into the specifc frames i need for both the animation and movement (gets the first 3 rows of images (white sprite)). The sprite starts with direction facing forwards(self.all_frames[4]) and the position will be the centre of the screen. A dictionary called direction index is created to find out what animation frame is called when the character moves a certain direction. In the update method, change in x(dx) and change in y(dy) is calculated based on player input and if it isnt (0,0) then the image of the charcter changes based on the direction and animation speed. The player position is then updated to calculate offset and the rectangle's center always satys at the centre pof the screen.
+4. camera offset is calculated to be added to later objcets/sprites
+5. basic frozen mechanic is added to the game ,with different timers that are created to calculate time frozen(2s) and time unfrozen(5s), depending if its frozen or unfrozen the background will chnage to either grey or blue.
